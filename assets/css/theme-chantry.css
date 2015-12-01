@@ -929,6 +929,12 @@ nav.light.scrolled .line-3 {
   .details-3 .feature br {
     display: block;
   }
+  .details-3 h1{
+    padding-top: 50px;
+  }
+  .details-3 p{
+    padding: 20px 30px 0 30px;
+  }
 }
 .details-4 .feature {
   width: 475px;
@@ -1015,7 +1021,7 @@ nav.light.scrolled .line-3 {
   }
 }
 .gallery-2 {
-  padding: 0;
+  padding: 100px 0 0 0;
   height: 600px;
 }
 .gallery-2:before {
@@ -1055,6 +1061,7 @@ nav.light.scrolled .line-3 {
 .gallery-2 h6 {
   color: #d18494;
   cursor: pointer;
+  margin-bottom: 50px;
 }
 @media all and (max-width: 1300px) {
   .gallery-2 .instafeed li {
@@ -1074,7 +1081,7 @@ nav.light.scrolled .line-3 {
 }
 @media all and (max-width: 767px) {
   .gallery-2 h1 {
-    font-size: 60px;
+    font-size: 40px;
     max-width: 100%;
     font-weight: 300;
     line-height: 68px;
@@ -1085,6 +1092,10 @@ nav.light.scrolled .line-3 {
   }
   .gallery-2 .instafeed li:nth-child(n+5) {
     display: none;
+  }
+  .gallery-2 iframe{
+    width: 100%;
+    margin: auto;
   }
 }
 /*!---------- ACCOMMODATION ----------*/
