@@ -24,3 +24,10 @@
    width: 100% !important;
   }
 }
+
+.map-container{
+  height: 450px !important;
+  iframe{
+    width: 100% !important;
+  }
+}
